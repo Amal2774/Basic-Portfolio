@@ -1,0 +1,164 @@
+
+body {
+    background: #2c7873;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.header, footer {
+    height: 60px;
+    background-color: #021c1e;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    color: #a2aab0;
+}
+
+.logo {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #6fb98f;
+    line-height: 60px;
+    font-size: 25px;
+    background: #004445; 
+}
+
+.links {
+    height: 60px;
+    line-height: 60px;
+    right: 30px;
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.links li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #a2aab0;
+}
+
+.links li a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.a {
+    display: block;
+    width: 120px;
+    background: #a2aab0;
+    color: #3e3e3b;
+    text-decoration: none;
+    font-weight: strong;
+    padding: 10px;
+}
+
+.main-content{
+    width: 750px;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    background: #e5e4e4;
+}
+
+.h2 {
+    font-size: 22px;
+
+}
+.p {
+    padding-top: 5px;
+}
+
+.p img {
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    padding-right: 10px;
+    float: left;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    color: #004445;
+}
+
+.box {
+    padding: 75px;
+    padding: 75px;
+    background-color: #6fb98f;
+    color: #2c7873;
+    font-size: em;
+}
+
+.a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.d {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+
+.e {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.f {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
