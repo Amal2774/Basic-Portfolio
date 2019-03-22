@@ -1,12 +1,15 @@
 
 body {
-    background: #2c7873;
+    /* background: #004445; */
     font-family: 'Encode Sans Condensed', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, #175862, #145157, #124a4d, #114343, #103c39, #103632, #102f2b, #0f2925, #0f221f, #0d1b19, #091413);
 }
 
 .header, footer {
     height: 60px;
-    background-color: #021c1e;
+    /* background-color: #004445; */
 
 }
 
@@ -17,7 +20,7 @@ body {
     width: 100%;
     line-height: 60px;
     text-align: center;
-    color: #a2aab0;
+    color: #FEFBFF;
 }
 
 .logo {
@@ -27,10 +30,10 @@ body {
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
-    color: #6fb98f;
+    color: #FEFBFF;
     line-height: 60px;
     font-size: 25px;
-    background: #004445; 
+    /* background: #004445;  */
 }
 
 .links {
@@ -50,12 +53,12 @@ body {
 
 .links li a{
     text-decoration: none;
-    color: #a2aab0;
+    color: #FEFBFF;
 }
 
 .links li a:hover{
     text-decoration: none;
-    color: blueviolet;
+    color: #f9a91f;
 }
 
 .content {
@@ -76,18 +79,18 @@ hr {
     display: block;
     width: 120px;
     background: #a2aab0;
-    color: #3e3e3b;
+    color: #FEFBFF;
     text-decoration: none;
     font-weight: strong;
     padding: 10px;
 }
 
 .main-content{
-    width: 750px;
+    width: 300px;
     margin-top: 25px;
     padding: 25px;
     border-radius: 5px;
-    background: #e5e4e4;
+    background: #FEFBFF;
 }
 
 .h2 {
